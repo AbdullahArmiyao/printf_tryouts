@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "_putchar.c": "cpp",
+        "uianimation.h": "c",
+        "main.h": "c",
+        "type_conversion.h": "c"
+    }
+}
