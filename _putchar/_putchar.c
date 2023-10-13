@@ -1,15 +1,12 @@
 #include <unistd.h>
-#include "../_printf2/lib/main.h"
 
 /**
- * _putchar - main function
+ * _putchar - write a character to stdout
+ * @c: the character to write
  *
- * @c: user input
- *
- * Return: void
+ * Return: 1 on success. -1 on error and errno is set
  */
-
-int _putchar(char c)
+int _putchar(int c)
 {
 	write(1, &c, 1);
 }
